@@ -5,7 +5,7 @@
 # Objetivo: É um projeto feito em Java com Maven, 
             criado a partir da IDE NetBeans (versão 8.2) 
             em uma VM.
-# Repositório: 
+# Repositório: https://github.com/gvc2010/BigData/tree/main
 */
 
 package com.pucpr.atpbigdata.Informacao7;
