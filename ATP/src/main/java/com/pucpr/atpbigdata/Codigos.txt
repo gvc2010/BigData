@@ -1,0 +1,45 @@
+Resposta Informacao1:
+- País com a maior quantidade de transações comerciais efetuadas.
+cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+Australia 307522
+
+
+Resposta Informacao2:
+- Mercadoria com a maior quantidade de transações comerciais no Brasil.
+cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+Woven cotton fabric, > 200g/m2, dyed, nes	110
+
+
+Resposta Informacao3:
+- Quantidade de transações comerciais realizadas por ano.
+cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+2006	378065
+
+
+Resposta Informacao4:
+- Mercadoria com maior quantidade de transações financeiras.
+cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+ALL COMMODITIES	9185
+
+
+Resposta Informacao5:
+- Mercadoria com maior quantidade de transações financeiras em 2016.
+cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+ALL COMMODITIES	308
+
+
+Resposta Informacao6:
+- Mercadoria com maior quantidade de transações financeiras em 2016, no Brasil
+cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+Yarn of other synth staple fibres + cotton not retail	4
+
+
+Resposta Informacao7:
+- Mercadoria com maior total de peso, de acordo com todas as transações comerciais.
+cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+Ceramic housewares, except of porcelain or china	2142688182
+
+Resposta Informacao8:
+- Mercadoria com maior total de peso, de acordo com todas as transações comerciais, separadas por ano.
+cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+Ferrous waste or scrap, nes >>> 2002	2147462519
